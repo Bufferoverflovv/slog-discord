@@ -14,7 +14,7 @@ const (
 
 func main() {
 	default_example()
-	//custom_example()
+	custom_example()
 }
 
 func default_example() {
