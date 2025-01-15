@@ -2,7 +2,7 @@
 
 A custom [slog](https://pkg.go.dev/log/slog) handler for [Discord](https://discord.com) that can send structured logs directly to Discord using a webhook. It converts a log into a Discord Embed with optional customisation.
 
-![Screenshot of a Discord embed with log details](./images/examplepng "Logs going to Discord")
+![Screenshot of a Discord embed with log details](./images/examplepng)
 
 ## ⭐️ Features
 ---
