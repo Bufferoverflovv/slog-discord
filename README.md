@@ -5,20 +5,17 @@ A custom [slog](https://pkg.go.dev/log/slog) handler for [Discord](https://disco
 ![Screenshot of a Discord embed with log details](./images/example.png)
 
 ## ⭐️ Features
----
 - **Flexible Embeds** – You can customise the embed title, description, colours, footers, etc.
 - **Log Level Colours** – Configure distinct colours for INFO, WARN, ERROR, etc.
 - **Structured** – Embrace key-value pairs, grouping, and other slog superpowers in your logs.
 
 ## 🚀 Install
----
 ```
 go get github.com/Bufferoverflovv/slog-discord
 ```
 *Compatible with go versions >= 1.21*
 
 ## 🪵 Usage
----
 ### Requirements 
 Create a discord [webhook](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks) in the channel you want to log notifications to be sent to
 ### Configuration 
@@ -155,13 +152,11 @@ logger.Info("Handling user request")
 ```
 
 ## 📝 Examples 
----
 Check out the [examples](./examples) folder for:
 • **Basic example**: Logs to Discord only.
 • **Custom embed**: Showcases how to override the default embed.
 
 ## ❓FAQ
----
 1. **What if I need to also log locally?**
 	- You can create a “multi-handler” approach (one logs to Discord, the other logs locally) if you **combine** them, or you can build a single handler that calls a “next” local handler. Either way, you do not have to limit yourself to only Discord.
 2. **How do I prevent spamming Discord?**
@@ -173,7 +168,6 @@ Check out the [examples](./examples) folder for:
 1. **I keep seeing “400 Bad Request” or "429 Rate Limit Exceeded"!**
 	- Double-check your webhook URL, or confirm that you’re not violating any Discord request size/rate limit.
 ## ❤️ License and Contributions
----
 This project is licensed under the [MIT License](LICENSE). You’re free to use, modify, and distribute it.You are more than welcome to  contribute if you see room for improvement—**PRs are always welcome**
 
 ---
