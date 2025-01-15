@@ -168,7 +168,9 @@ Check out the [examples](./examples) folder for:
 1. **I keep seeing “400 Bad Request” or "429 Rate Limit Exceeded"!**
 	- Double-check your webhook URL, or confirm that you’re not violating any Discord request size/rate limit.
 ## ❤️ License and Contributions
-This project is licensed under the [MIT License](LICENSE). You’re free to use, modify, and distribute it.You are more than welcome to  contribute if you see room for improvement—**PRs are always welcome**
+This project is licensed under the [MIT License](LICENSE). You’re free to use, modify, and distribute it.
+
+You are more than welcome to  contribute if you see room for improvement—**PRs are always welcome**
 
 ---
 **Enjoy sending your logs in style to Discord!** If you need help or want a new feature, open an issue or drop a PR!
