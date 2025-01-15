@@ -22,13 +22,13 @@ Create a discord [webhook](https://support.discord.com/hc/en-us/articles/2283836
 `DiscordWebhookConfig` configures how logs are sent to discord
 ```go
 type DiscordWebhookConfig struct {
-	MinLevel slog.Level // Set the minimum slog level (Default: Debug) : Optional
-	Timeout time.Duration // Set the timeout (Default: 5 Seconds) : Optional
-	WebhookURL string // The webhook URL from discord 
-	Username string // Set a custom username : Optional
-	AvatarURL string  // Set a custom avatar : Optional
-	LevelColors LevelColors // Customise the colours for each slog level : Optional
-	CustomEmbed CustomEmbed  // Customise the embed content : Optional
+MinLevel slog.Level // Set the minimum slog level (Default: Debug) : Optional
+Timeout time.Duration // Set the timeout (Default: 5 Seconds) : Optional
+WebhookURL string // The webhook URL from discord 
+Username string // Set a custom username : Optional
+AvatarURL string  // Set a custom avatar : Optional
+LevelColors LevelColors // Customise the colours for each slog level : Optional
+CustomEmbed CustomEmbed  // Customise the embed content : Optional
 }
 ```
 ### Basic Setup (Default Embed)
