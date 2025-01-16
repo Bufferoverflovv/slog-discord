@@ -1,5 +1,11 @@
 # Slog Discord Handler
 
+[![GitHub Tag](https://img.shields.io/github/v/tag/Bufferoverflovv/slog-discord)](https://github.com/Bufferoverflovv/slog-discord/releases)
+![Go Version](https://img.shields.io/badge/Go-%3E%3D%201.21-%23007d9c)
+[![GoDoc](https://godoc.org/github.com/Bufferoverflovv/slog-discord?status.svg)](https://pkg.go.dev/github.com/Bufferoverflovv/slog-discord)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Bufferoverflovv/slog-discord)](https://goreportcard.com/report/github.com/Bufferoverflovv/slog-discord)
+[![GitHub License](https://img.shields.io/github/license/Bufferoverflovv/slog-discord)](./LICENSE)
+
 A custom [slog](https://pkg.go.dev/log/slog) handler for [Discord](https://discord.com) that can send structured logs directly to Discord using a webhook. It converts a log into a Discord Embed with optional customisation.
 
 ![Screenshot of a Discord embed with log details](./images/example.png)
